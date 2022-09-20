@@ -1,4 +1,6 @@
-# if True:
+if True:
+
     print("Holberton")
-# else:
+else:
+
     print("School")
