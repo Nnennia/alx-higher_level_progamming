@@ -1,4 +1,4 @@
-#!/user/bin/python3
+#!/usr/bin/python3
 def fizzbuzz():
     """ for multiples of 3 prints fizz
     for multiples of 5 prints buzz
