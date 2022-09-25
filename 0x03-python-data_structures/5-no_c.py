@@ -1,5 +1,5 @@
 #!/usr/bin/python3
+
 def no_c(my_string):
-    for i in my_string:
-        if i != 67 and i != 99:
-            print("{:s}".format(my_string[i]))
+    string = [x for x in my_string if x != 'c' and x != 'C']
+    return ("".join(string))
