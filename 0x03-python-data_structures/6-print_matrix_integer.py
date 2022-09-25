@@ -3,6 +3,6 @@
 def print_matrix_integer(matrix=[[]]):
     if isinstance(matrix, list):
         for x in matrix:
-            return (x)
+            print("{}".format(x))
     else:
-        return (matrix)
+        print("{}".format(matrix))
