@@ -6,4 +6,4 @@ def number_keys(a_dictionary):
     Args:
         a_dictionary (dictionary): dict to check
     """
-    return len(a_dictionary)
+    return len((a_dictionary))
