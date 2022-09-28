@@ -5,6 +5,8 @@ def update_dictionary(a_dictionary, key, value):
 
     Args:
         a_dictionary (dictionary)
-        key (string)
+        key (string) : string
         value (any)
     """
+    a_dictionary[key] = value
+    return (a_dictionary)
