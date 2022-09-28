@@ -9,10 +9,4 @@ def print_sorted_dictionary(a_dictionary):
     Returns:
         a sorted dictionary
     """
-    a_dictionary = {}
-    a_dictionary.iterkeys()
-
-
-
-a = print_sorted_dictionary({'lang': "c", 'num': "87", 'tracj': "Lodgd", 'ids': [1, 2, 3]})
-print(a)
+    [print("{}: {}".format(x, a_dictionary[x])) for x in sorted(a_dictionary)]
