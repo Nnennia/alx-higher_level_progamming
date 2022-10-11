@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""define square size"""
+
 
 class Square:
     def __init__(self, size=0):
