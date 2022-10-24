@@ -10,9 +10,11 @@ class BaseGeometry:
 
     def integer_validator(self, name, value):
         """_summary_
+
         Args:
             name (_type_): _description_
             value (_type_): _description_
+
         Raises:
             TypeError: _description_
             ValueError: _description_

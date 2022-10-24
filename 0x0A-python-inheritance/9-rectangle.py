@@ -1,24 +1,22 @@
 #!/usr/bin/python3
-
-"""Inherits a class"""
+""" Inherits Base Geometry class from 7"""
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
-    """Rectangle class"""
+    """ Rectangle class """
     def __init__(self, width, height):
-        """Intialize a new triangle"""
+        """ Init method """
         super().integer_validator("width", width)
         self.__width = width
         super().integer_validator("height", height)
         self.__height = height
 
     def area(self):
-        """Return the area of the rectangle."""
-        return self.__width * self.__height
+        """ calculates area """
+        return self.__height * self.__width
 
     def __str__(self):
-        """Return the print() and str() representation of a Rectangle."""
-        string = "[" + str(self.__class__.__name__) + "] "
-        string += str(self.__width) + "/" + str(self.__height)
-        return string
+        """ The string repr... of a rectangle """
+        name = str(self.__class__.__name__)
+        return "[{}] {}/{}".format(name, str(self.__width), str(self.__height))

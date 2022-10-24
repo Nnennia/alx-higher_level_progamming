@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-"""Function for object type"""
+""" A function """
 
 
 def is_same_class(obj, a_class):
-    """Returns true is the object is the class"""
-    if type(obj) == (a_class):
-        return True
-    return False
+    """ Checks if same class """
+    return type(obj) is a_class
