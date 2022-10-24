@@ -21,7 +21,7 @@ Section // No exceptions
 =========================
 
 Test case #0: A test case with good parameters
-
+    
     >>> bg.integer_validator("my_int", 12)
 
 
