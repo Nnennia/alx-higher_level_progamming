@@ -2,9 +2,6 @@
 """ A class """
 
 
-from types import prepare_class
-
-
 class MyList(list):
     """ Inherits the list class """
 
