@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""Define a function that appends a string to a text file"""
+""" append_write function """
 
 
-def write_file(filename="", text=""):
-    """Function appends a string to a text file"""
-    with open(filename, "a", encoding="utf-8") as f:
-        return f.write(text)
+def append_write(filename="", text=""):
+    """ appends text to a file """
+    with open(filename, mode='a', encoding='utf-8') as fp:
+        return fp.write(text)
